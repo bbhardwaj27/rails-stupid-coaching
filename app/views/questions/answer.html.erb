@@ -13,3 +13,11 @@ The ans is:
 <p>
 <%= link_to "Ask another question", ask_path %>
 </p>
+
+<p>Now is <%= Time.now %></p>
+
+<ol>
+  <% @members.each do |member| %>
+    <li><%= member.capitalize + " " + member.upcase + " " + member.downcase + " " + member.swapcase %></li>
+  <% end %>
+</ol>

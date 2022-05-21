@@ -16,5 +16,7 @@ class QuestionsController < ApplicationController
     else
       @answer = "I don't care, get dressed and go to work!"
     end
+
+    @members = [ 'thanh', 'dimitri', 'germain', 'damien', 'julien', 'GJH>tsdbjdhgDj']
   end
 end
